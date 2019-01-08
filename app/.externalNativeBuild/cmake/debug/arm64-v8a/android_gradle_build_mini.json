@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/glm/CMakeLists.txt",
+    "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "game-Debug-arm64-v8a": {
+      "artifactName": "game",
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a --target game",
+      "abi": "arm64-v8a",
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgame.so"
+    },
+    "native_app_glue-Debug-arm64-v8a": {
+      "artifactName": "native_app_glue",
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native_app_glue",
+      "abi": "arm64-v8a",
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a/libnative_app_glue.a"
+    },
+    "glm-Debug-arm64-v8a": {
+      "artifactName": "glm",
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a --target glm",
+      "abi": "arm64-v8a",
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a/glm/libglm.a"
+    }
+  }
+}

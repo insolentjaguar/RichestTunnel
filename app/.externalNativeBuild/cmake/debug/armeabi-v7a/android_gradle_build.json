@@ -1,0 +1,193 @@
+{
+  "stringTable": {
+    "0": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chalen/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chalen/Library/Android/sdk/ndk-bundle/sysroot -Dgame_EXPORTS -I/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp -I/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/data -I/Users/chalen/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=gnu++11 -Wall -O0 -fno-limit-debug-info -fPIC -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS",
+    "2": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chalen/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chalen/Library/Android/sdk/ndk-bundle/sysroot -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS",
+    "3": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chalen/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/chalen/Library/Android/sdk/ndk-bundle/sysroot -I/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/glm/.. -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=gnu++11 -Wall -O0 -fno-limit-debug-info -fPIC -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS",
+    "4": "-isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS",
+    "5": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a/glm"
+  },
+  "buildFiles": [
+    "/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/glm/CMakeLists.txt",
+    "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "game-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target game",
+      "buildType": "debug",
+      "toolchain": "1991704932",
+      "abi": "armeabi-v7a",
+      "artifactName": "game",
+      "files": [
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/android_main.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/anim.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/ascii_to_geom.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/dialog_scene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/indexbuf.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/input_util.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/jni_util.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/native_engine.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/obstacle.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/obstacle_generator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/our_shader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/play_scene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/scene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/scene_manager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/sfxman.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/shader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/shape_renderer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/tex_quad.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/text_renderer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/texture.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/ui_scene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/util.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/vertexbuf.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/welcome_scene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libgame.so"
+    },
+    "native_app_glue-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target native_app_glue",
+      "buildType": "debug",
+      "toolchain": "1991704932",
+      "abi": "armeabi-v7a",
+      "artifactName": "native_app_glue",
+      "files": [
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/Users/chalen/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libnative_app_glue.a"
+    },
+    "glm-Debug-armeabi-v7a": {
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target glm",
+      "buildType": "debug",
+      "toolchain": "1991704932",
+      "abi": "armeabi-v7a",
+      "artifactName": "glm",
+      "files": [
+        {
+          "src": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/glm/detail/glm.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 5
+        }
+      ],
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a/glm/libglm.a"
+    }
+  },
+  "toolchains": {
+    "1991704932": {
+      "cCompilerExecutable": "/Users/chalen/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/chalen/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

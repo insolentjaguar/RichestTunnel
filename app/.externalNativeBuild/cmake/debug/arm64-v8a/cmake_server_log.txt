@@ -1,0 +1,167 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp",
+  "buildDirectory": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/chalen/Downloads/EndlessTunnel/app/build/intermediates/cmake/debug/obj/arm64-v8a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DANDROID_NDK\u003d/Users/chalen/Library/Android/sdk/ndk-bundle",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/chalen/Library/Android/sdk/ndk-bundle",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DANDROID_STL\u003dc++_static"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":900,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":950,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":500,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake","/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake","glm/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a","name":"Project","sourceDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp","targets":[{"artifacts":["/Users/chalen/Downloads/EndlessTunnel/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgame.so"],"buildDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=gnu++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS","defines":["game_EXPORTS"],"includePath":[{"path":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp"},{"path":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/data"},{"path":"/Users/chalen/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue"},{"isSystem":true,"path":"/Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include"},{"isSystem":true,"path":"/Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include"}],"isGenerated":false,"language":"CXX","sources":["android_main.cpp","anim.cpp","ascii_to_geom.cpp","dialog_scene.cpp","indexbuf.cpp","input_util.cpp","jni_util.cpp","native_engine.cpp","obstacle.cpp","obstacle_generator.cpp","our_shader.cpp","play_scene.cpp","scene.cpp","scene_manager.cpp","sfxman.cpp","shader.cpp","shape_renderer.cpp","tex_quad.cpp","text_renderer.cpp","texture.cpp","ui_scene.cpp","util.cpp","vertexbuf.cpp","welcome_scene.cpp"]}],"fullName":"libgame.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -nostdlib++ --sysroot /Users/chalen/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now  -u ANativeActivity_onCreate","linkLibraries":"-landroid libnative_app_glue.a -latomic -lEGL -lGLESv2 glm/libglm.a -llog -lOpenSLES -latomic -lm \"/Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++_static.a\" \"/Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++abi.a\"","linkerLanguage":"CXX","name":"game","sourceDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp","sysroot":"/Users/chalen/Library/Android/sdk/ndk-bundle/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a/libnative_app_glue.a"],"buildDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS","isGenerated":false,"language":"C","sources":["/Users/chalen/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c"]}],"fullName":"libnative_app_glue.a","linkerLanguage":"C","name":"native_app_glue","sourceDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp","sysroot":"/Users/chalen/Library/Android/sdk/ndk-bundle/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a/glm/libglm.a"],"buildDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/arm64-v8a/glm","fileGroups":[{"compileFlags":"-isystem /Users/chalen/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=gnu++11 -Wall -O0 -fno-limit-debug-info  -fPIC   -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS","includePath":[{"path":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/glm/.."},{"isSystem":true,"path":"/Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include"},{"isSystem":true,"path":"/Users/chalen/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include"}],"isGenerated":false,"language":"CXX","sources":["detail/glm.cpp"]}],"fullName":"libglm.a","linkerLanguage":"CXX","name":"glm","sourceDirectory":"/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/glm","sysroot":"/Users/chalen/Library/Android/sdk/ndk-bundle/sysroot","type":"STATIC_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

@@ -1,0 +1,7 @@
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/game.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/native_app_glue.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/armeabi-v7a/glm/CMakeFiles/rebuild_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/armeabi-v7a/glm/CMakeFiles/edit_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/armeabi-v7a/glm/CMakeFiles/glm.dir

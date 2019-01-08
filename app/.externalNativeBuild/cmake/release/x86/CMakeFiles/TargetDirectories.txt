@@ -1,0 +1,7 @@
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/game.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/native_app_glue.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/x86/glm/CMakeFiles/rebuild_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/x86/glm/CMakeFiles/edit_cache.dir
+/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/release/x86/glm/CMakeFiles/glm.dir

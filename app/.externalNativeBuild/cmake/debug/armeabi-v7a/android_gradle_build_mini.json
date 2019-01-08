@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/chalen/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/glm/CMakeLists.txt",
+    "/Users/chalen/Downloads/EndlessTunnel/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "game-Debug-armeabi-v7a": {
+      "artifactName": "game",
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target game",
+      "abi": "armeabi-v7a",
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libgame.so"
+    },
+    "native_app_glue-Debug-armeabi-v7a": {
+      "artifactName": "native_app_glue",
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target native_app_glue",
+      "abi": "armeabi-v7a",
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libnative_app_glue.a"
+    },
+    "glm-Debug-armeabi-v7a": {
+      "artifactName": "glm",
+      "buildCommand": "/Users/chalen/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target glm",
+      "abi": "armeabi-v7a",
+      "output": "/Users/chalen/Downloads/EndlessTunnel/app/.externalNativeBuild/cmake/debug/armeabi-v7a/glm/libglm.a"
+    }
+  }
+}
