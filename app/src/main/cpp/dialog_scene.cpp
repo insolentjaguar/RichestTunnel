@@ -3,8 +3,8 @@
 #include "dialog_scene.hpp"
 #include "play_scene.hpp"
 
-#define BUTTON_FONT_SCALE 0.6f
-#define TEXT_FONT_SCALE 0.6f
+#define BUTTON_FONT_SCALE 0.7f
+#define TEXT_FONT_SCALE 0.7f
 #define BUTTON_MARGIN 0.1f
 
 #define BUTTON_WIDTH 0.4f
@@ -120,9 +120,6 @@ void DialogScene::OnButtonClicked(int id) {
             mgr->RequestNewScene(new WelcomeScene());
             break;
         case ACTION_SIGN_IN:
-            // note: we can't start playing directly because PlayScene expects the cloud
-            // results to be ready when it constructs itself; therefore, WelcomeScene
-            // has to make sure of that. So we can't jump directly to PlayScene from here.
             mgr->RequestNewScene(new WelcomeScene());
             break;
         case ACTION_PLAY_WITHOUT_SIGNIN:
