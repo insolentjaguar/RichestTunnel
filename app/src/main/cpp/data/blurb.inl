@@ -7,9 +7,9 @@
 
 #define BLURB_STORY \
     "STORY\n\n" \
-    "Why pay 99cents for a game\n" \
-    "when you have the money to throw\n" \
-    "around? Help support charity\n" \
-    "and a developer while you're\n" \
-    "at it! New games coming soon!"
+    "I came from a bad upbringing and\n" \
+    "finally turned my life around through\n" \
+    "hard work and study.\n" \
+    "DONATE via Bitcoin to help out!\n" \
+    " 1QATxLmV2b1gcLMcNyHmUq4rRAj5KyeAhn "
 
