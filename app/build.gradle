@@ -1,14 +1,12 @@
 apply plugin: 'com.android.application'
-
 android {
-    compileSdkVersion 28
-
+    compileSdkVersion 26
     defaultConfig {
-        applicationId 'com.google.sample.tunnel'
+        applicationId 'com.stonemossgroup.richesttunnel'
         minSdkVersion 14
-        targetSdkVersion 28
-        versionCode     1
-        versionName    '1.0'
+        targetSdkVersion 26
+        versionCode 1
+        versionName '1.0'
         externalNativeBuild {
             cmake {
                 arguments '-DANDROID_STL=c++_static'
@@ -19,7 +17,7 @@ android {
         release {
             minifyEnabled = false
             proguardFiles getDefaultProguardFile('proguard-android.txt'),
-                          'proguard-rules.pro'
+                    'proguard-rules.pro'
         }
     }
     externalNativeBuild {
@@ -27,8 +25,13 @@ android {
             path 'src/main/cpp/CMakeLists.txt'
         }
     }
+    buildToolsVersion '28.0.3'
+    productFlavors {
+    }
 }
 android.lintOptions {
-        abortOnError  = false
+    abortOnError = false
 }
 
+dependencies {
+}

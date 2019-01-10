@@ -12,7 +12,7 @@
 #define TITLE_COLOR 0.0f, 1.0f, 0.0f
 
 // button defaults:
-#define BUTTON_COLOR 0.0f, 1.0f, 0.0f
+#define BUTTON_COLOR 0.0f, 0.0f, 1.0f
 #define BUTTON_SIZE 0.2f, 0.2f
 #define BUTTON_FONT_SCALE 0.5f
 
