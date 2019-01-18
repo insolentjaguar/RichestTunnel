@@ -16,6 +16,17 @@
 #endif
 
 // max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+// max # of GL errors to print before giving up
+
+
+// max # of GL errors to print before giving up
 #define MAX_GL_ERRORS 200
 
 static NativeEngine *_singleton = NULL;

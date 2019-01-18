@@ -17,7 +17,7 @@
 #define TRANSITION_DURATION 0.3f
 
 // default button colors
-const static float BUTTON_FOCUS_COLOR[] = { 1.0f, 1.0f, 0.0f };
+const static float BUTTON_FOCUS_COLOR[] = { 1.0f, 1.0f, 0.1f };
 const static float BUTTON_DISABLED_COLOR[] = { 0.3f, 0.3f, 0.3f };
 
 UiScene::UiScene() {

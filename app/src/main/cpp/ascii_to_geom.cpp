@@ -3,6 +3,7 @@
 
 #define GEOM_DEBUG LOGD
 //#define GEOM_DEBUG
+// Geometries
 
 SimpleGeom* AsciiArtToGeom(const char *art, float scale) {
     // figure out width and height

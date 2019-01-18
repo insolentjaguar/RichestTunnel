@@ -1,6 +1,7 @@
 
 #include "anim.hpp"
 #include "util.hpp"
+// working animations
 
 void RenderBackgroundAnimation(ShapeRenderer *r) {
     float aspect = SceneManager::GetInstance()->GetScreenAspect();

@@ -17,7 +17,8 @@
 #define WALL_TEXTURE_SIZE 64
 
 // colors for menus
-static const float MENUITEM_SEL_COLOR[] = { 1.0f, 1.0f, 0.0f };
+static const float MENUITEM_SEL_COLOR[] = { 1.0f, 1.0f, 1.0f };
+// static const float MENUITEM_SEL_COLOR[] = { 1.0f, 1.0f, 0.0f };
 static const float MENUITEM_COLOR[] = { 1.0f, 1.0f, 1.0f };
 
 // obstacle colors

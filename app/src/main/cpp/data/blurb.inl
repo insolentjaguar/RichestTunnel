@@ -7,9 +7,9 @@
 
 #define BLURB_STORY \
     "STORY\n\n" \
-    "I came from a bad upbringing and\n" \
+    "I came from a rough upbringing and\n" \
     "finally turned my life around through\n" \
     "hard work and study.\n" \
-    "DONATE via Bitcoin to help out!\n" \
+    "DONATE via Bitcoin to help me out!\n" \
     " 1QATxLmV2b1gcLMcNyHmUq4rRAj5KyeAhn "
 

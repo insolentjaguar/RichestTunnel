@@ -25,6 +25,7 @@ static void _init() {
     }
 
     _init_done = true;
+// utilities lookup
 
     // look up the AMotionEvent_getAxisValue function
     void *lib_android;

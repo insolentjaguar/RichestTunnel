@@ -1,5 +1,6 @@
 
 #include "indexbuf.hpp"
+// Index buffers
 
 IndexBuf::IndexBuf(GLushort *data, int dataSizeBytes) {
     mCount = dataSizeBytes / sizeof(GLushort);

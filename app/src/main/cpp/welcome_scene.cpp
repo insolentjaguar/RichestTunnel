@@ -9,10 +9,12 @@
 
 #define TITLE_POS center, 0.85f
 #define TITLE_FONT_SCALE 1.0f
-#define TITLE_COLOR 0.0f, 1.0f, 0.0f
+#define TITLE_COLOR 0.5f, 0.9f, 0.9f
+// #define TITLE_COLOR 0.0f, 1.0f, 0.0f
 
 // button defaults:
-#define BUTTON_COLOR 0.0f, 0.0f, 1.0f
+#define BUTTON_COLOR 0.5f, 0.9f, 0.9f
+// #define BUTTON_COLOR 0.0f, 0.0f, 1.0f
 #define BUTTON_SIZE 0.2f, 0.2f
 #define BUTTON_FONT_SCALE 0.5f
 
@@ -30,7 +32,16 @@
 #define BUTTON_STORY_POS 0.1f + 0.5f * BUTTON_SIDEBUTTON_WIDTH, 0.5f
 #define BUTTON_ABOUT_POS center + 0.3f + 0.5f * BUTTON_SIDEBUTTON_WIDTH, 0.5f
 
-
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
+// Layout main welcome screens
 
 WelcomeScene::WelcomeScene() {
 }
